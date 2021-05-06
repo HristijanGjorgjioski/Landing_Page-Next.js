@@ -56,6 +56,16 @@ export default function ServiceSection() {
               <IoIosPlay />
             </span>
           </Button>
+          <Box sx={styles.shapeBox}>
+            <Image src={shapePattern} alt="shape" />
+          </Box>
+        </Box>
+        <Box sx={styles.contentBox}>
+          <TextFeature subTitle={data.subTitle} title={data.title} />
+
+          <Grid sx={styles.grid}>
+            
+          </Grid>
         </Box>
       </Container>
     </section>
